@@ -16,16 +16,4 @@ Creamos un entorno con python 3.7, e instalamos las dependencias necesarias.
     $   pip install -r requirements.txt
     $   streamlit run app.py
     
-##  3. Producción en servidor remoto
-
-    *   Activar una cuenta en google cloud
-    *   Crear proyecto en google cloud
-    *   Instalar GoogleCloudSDK
-        (https://cloud.google.com/sdk/docs/install)
-    *   Ejecutar en la terminal:
-    
-    $ gcloud init
-    $ gcloud app deploy app.yaml --project "Nombre del proyecto"
-    
-    
   ![Screenshot](https://github.com/DavidReveloLuna/API_Gcloud_Streamlit/blob/master/assets/Screenshot.png)
